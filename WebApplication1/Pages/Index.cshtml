@@ -1,0 +1,9 @@
+﻿@page
+@model IndexModel
+
+<strong>Environment.WebRootPath from Razor Page:</strong>
+<webrootpath></webrootpath>
+
+<strong>Environment.WebRootPath from Templating:</strong>
+@Html.Raw(Model.Html)
+
